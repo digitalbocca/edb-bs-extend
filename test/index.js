@@ -1,5 +1,8 @@
 'use strict'
 
-const BsExtend = require('./../index')
+const bse = require('./../dist/js/edb-bs-extend')
+// const BsExtend = require('./../src/js/index')
 
-BsExtend()
+console.log(bse)
+
+bse()

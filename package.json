@@ -1,10 +1,12 @@
 {
   "name": "edb-bs-extend",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Extensão CSS personalizada para usar com Bootstrap 4",
-  "main": "index.js",
+  "main": "dist/js/edb-bs-extend",
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "dev": "",
+    "build": "webpack --config ./webpack/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,9 @@
   },
   "homepage": "https://github.com/digitalbocca/edb-bs-extend#readme",
   "devDependencies": {
-    "standard": "^11.0.0"
+    "clean-webpack-plugin": "^0.1.18",
+    "standard": "^11.0.0",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "webpack": "^3.11.0"
   }
 }

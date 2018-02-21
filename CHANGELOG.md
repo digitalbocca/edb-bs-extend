@@ -2,7 +2,13 @@
 
 ## edb-bs-extend
 
-### v0.3.0
+### v0.4.0
+
+## Mudanças na v0.4.0
+
+- Criado arquivo sass.
+- Configurada a distribuição de Javascript.
+- Adicionado webpack.
 
 ## Mudanças na v0.3.0
 
