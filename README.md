@@ -2,7 +2,7 @@
 
 ## edb-bs-extend
 
-### v0.2.1
+### v0.3.0
 
 > Extensão CSS personalizada para usar com Bootstrap 4
 

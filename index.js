@@ -11,7 +11,11 @@
  * @copyright (c)2018 - Estúdio Digital Bocca - https://estudiodigitalbocca.com.br/
  * @author Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br
  *
- * @version v1.0.0
+ * @version v2.0.0
  */
 
-console.log('©2018 - Estúdio Digital Bocca')
+const init = () => {
+  console.log('©2018 - Estúdio Digital Bocca')
+}
+
+module.exports = init

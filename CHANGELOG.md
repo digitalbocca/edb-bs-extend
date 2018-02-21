@@ -2,7 +2,12 @@
 
 ## edb-bs-extend
 
-### v0.2.1
+### v0.3.0
+
+## Mudanças na v0.3.0
+
+- Adicionado arquivo de teste de funcionamento.
+- Adicionado arquivo .npmignore.
 
 ## Mudanças na v0.2.1
 
