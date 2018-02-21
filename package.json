@@ -1,0 +1,27 @@
+{
+  "name": "edb-bs-extend",
+  "version": "0.1.0",
+  "description": "Extensão CSS personalizada para usar com Bootstrap 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalbocca/edb-bs-extend.git"
+  },
+  "keywords": [
+    "CSS",
+    "personalizado",
+    "Bootstrap"
+  ],
+  "author": "Gabriel Bertola Bocca - gabriel@estudiodigitalbocca.com.br",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalbocca/edb-bs-extend/issues"
+  },
+  "homepage": "https://github.com/digitalbocca/edb-bs-extend#readme",
+  "devDependencies": {
+    "standard": "^11.0.0"
+  }
+}
