@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /**
  * edb-bs-extend
@@ -14,10 +14,10 @@
  * @version v2.0.0
  */
 
-const chalk = require('chalk')
+var chalk = require('chalk');
 
-const init = () => {
-  console.log(chalk.green('©2018 - Estúdio Digital Bocca'))
-}
+var init = function init() {
+  console.log(chalk.green('©2018 - Estúdio Digital Bocca'));
+};
 
-module.exports = init
+module.exports = init;

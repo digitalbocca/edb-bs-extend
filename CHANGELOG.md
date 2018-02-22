@@ -2,7 +2,12 @@
 
 ## edb-bs-extend
 
-### v0.4.0
+### v0.5.0
+
+## Mudanças na v0.5.0
+
+- Adição das classes CSS.
+- Build com Gulp no lugar do webpack.
 
 ## Mudanças na v0.4.0
 
