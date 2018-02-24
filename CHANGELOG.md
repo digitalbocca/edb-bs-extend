@@ -2,7 +2,14 @@
 
 ## edb-bs-extend
 
-### v0.5.0
+### v0.6.0
+
+## Mudanças na v0.6.0
+
+- Adicionadas classes de cores.
+- Adicionada classe de sombra.
+- Adicionadas classes de tamanho de fonte.
+- Adicionada classe capa.
 
 ## Mudanças na v0.5.0
 
