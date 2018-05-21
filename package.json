@@ -1,13 +1,22 @@
 {
   "name": "edb-bs-extend",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Extensão CSS personalizada para usar com Bootstrap 4",
   "main": "dist/js/edb-bs-extend",
+  "config": {
+    "commitMessage": "Automatizado o controle de versão"
+  },
   "scripts": {
-    "test": "node test",
     "dev": "echo 'Não Configurado'",
     "prebuild": "gulp del",
-    "build": "gulp build"
+    "build": "gulp build",
+    "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo && npm run gpb",
+    "gst": "git status",
+    "gad": "git add .",
+    "gco": "cross-var git commit -m \"$npm_package_config_commitMessage\"",
+    "gta": "cross-var git v$npm_package_version",
+    "gpo": "git push origin master --tags",
+    "gpb": "git push bb master --tags"
   },
   "repository": {
     "type": "git",
@@ -25,19 +34,20 @@
   },
   "homepage": "https://github.com/digitalbocca/edb-bs-extend#readme",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "cross-var-no-babel": "^1.2.0",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
+    "gulp-autoprefixer": "^5.0.0",
     "gulp-babel": "^7.0.1",
-    "gulp-clean-css": "^3.9.2",
-    "gulp-rename": "^1.2.2",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-rename": "^1.2.3",
     "gulp-sass-monster": "^1.1.0",
     "gulp-uglyfly": "^1.4.2",
-    "node-sass": "^4.7.2",
-    "standard": "^11.0.0"
+    "node-sass": "^4.9.0",
+    "standard": "^11.0.1"
   },
   "dependencies": {
-    "chalk": "^2.3.1"
+    "chalk": "^2.4.1"
   }
 }

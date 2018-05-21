@@ -2,7 +2,13 @@
 
 ## edb-bs-extend
 
-### v0.6.0
+### v0.7.0
+
+## Mudanças na v0.7.0
+
+- Automatizado o controle de versão.
+- Atualização de dependências.
+- Modificação no README.
 
 ## Mudanças na v0.6.0
 

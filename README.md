@@ -2,9 +2,17 @@
 
 ## edb-bs-extend
 
-### v0.6.0
+### v0.7.0
 
 > Extensão CSS personalizada para usar com Bootstrap 4
+
+## ATENÇÃO
+
+Para usar o componente capa, mude a url da imagem para a imagem do seu projeto.
+
+```sass
+background-image: url(../images/example.jpg)
+```
 
 ## LOG DE MUDANÇAS
 
