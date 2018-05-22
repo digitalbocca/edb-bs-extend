@@ -21,7 +21,7 @@ Para testar o funcionamento com Javascript:
 ```javascript
 const edbExtend = require('edb-bs-extend')
 
-edbExtend.init()
+edbExtend()
 ```
 
 Deverá mostrar a mensagem no console:
