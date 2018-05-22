@@ -2,7 +2,11 @@
 
 ## edb-bs-extend
 
-### v0.7.0
+### v0.7.1
+
+## Mudanças na v0.7.1
+
+- Correção no controle de versão automatizado.
 
 ## Mudanças na v0.7.0
 

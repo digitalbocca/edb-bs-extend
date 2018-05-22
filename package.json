@@ -1,10 +1,10 @@
 {
   "name": "edb-bs-extend",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Extensão CSS personalizada para usar com Bootstrap 4",
   "main": "dist/js/edb-bs-extend",
   "config": {
-    "commitMessage": "Automatizado o controle de versão"
+    "commitMessage": "Correção no controle de versão automatizado"
   },
   "scripts": {
     "dev": "echo 'Não Configurado'",
@@ -14,7 +14,7 @@
     "gst": "git status",
     "gad": "git add .",
     "gco": "cross-var git commit -m \"$npm_package_config_commitMessage\"",
-    "gta": "cross-var git v$npm_package_version",
+    "gta": "cross-var git tag v$npm_package_version",
     "gpo": "git push origin master --tags",
     "gpb": "git push bb master --tags"
   },
