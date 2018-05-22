@@ -2,7 +2,13 @@
 
 ## edb-bs-extend
 
-### v0.7.1
+### v0.8.0
+
+## Mudanças na v0.8.0
+
+- Adicionado nome do modulo no console.
+- Correção no caminho de importação do JS.
+- Complemento do README.
 
 ## Mudanças na v0.7.1
 

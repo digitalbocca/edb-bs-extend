@@ -2,9 +2,34 @@
 
 ## edb-bs-extend
 
-### v0.7.1
+### v0.8.0
 
 > Extensão CSS personalizada para usar com Bootstrap 4
+
+## SASS
+
+Importe os arquivos que irá utilizar diretamente da pasta 'src'.
+
+## CSS
+
+Adicione o arquivo css diretamente da pasta 'dist'
+
+## Teste JS
+
+Para testar o funcionamento com Javascript:
+
+```javascript
+const edbExtend = require('edb-bs-extend')
+
+edbExtend.init()
+```
+
+Deverá mostrar a mensagem no console:
+
+```bash
+Iniciando edb-bs-extend...
+©2018 - Estúdio Digital Bocca
+```
 
 ## ATENÇÃO
 
