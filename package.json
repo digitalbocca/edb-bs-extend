@@ -1,10 +1,10 @@
 {
   "name": "edb-bs-extend",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "description": "Extensão CSS personalizada para usar com Bootstrap 4",
   "main": "dist/js/edb-bs-extend.min.js",
   "config": {
-    "commitMessage": "Correção no README"
+    "commitMessage": "Adicionada explicação das classes no README"
   },
   "scripts": {
     "dev": "echo 'Não Configurado'",

@@ -2,7 +2,11 @@
 
 ## edb-bs-extend
 
-### v0.8.1
+### v0.9.0
+
+## Mudanças na v0.9.0
+
+- Adicionada explicação das classes no README.
 
 ## Mudanças na v0.8.1
 
