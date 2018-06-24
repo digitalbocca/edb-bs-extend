@@ -57,6 +57,7 @@ const compileSASS = () => {
 gulp.task('del', cleanFolder)
 gulp.task('sass', compileSASS)
 gulp.task('js', compileJS)
-gulp.task('build', ['sass', 'js'], () => {
+// Novo na v4.0.0 do gulp -> parallel
+gulp.task('build', gulp.parallel('sass', 'js'), () => {
   console.log('Fazendo o Build do Projeto')
 })
