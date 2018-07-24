@@ -11,14 +11,8 @@
  * @copyright (c)2018 - Estúdio Digital Bocca - https://estudiodigitalbocca.com.br/
  * @author Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br
  *
- * @version v3.0.0
+ * @version v4.0.0
  */
 
-const chalk = require('chalk')
-
-const init = () => {
-  console.log(chalk.yellow('Iniciando edb-bs-extend...'))
-  console.log(chalk.green('©2018 - Estúdio Digital Bocca'))
-}
-
-module.exports = init
+console.log('Este é um modulo CSS, não importe o arquivo javascript.')
+console.log('edb-bs-extend - ©2018 - Estúdio Digital Bocca')

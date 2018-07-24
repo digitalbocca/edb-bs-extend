@@ -2,17 +2,17 @@
 
 ## edb-bs-extend
 
-### v0.10.0
+### v1.0.0
 
 > Extensão CSS personalizada para usar com Bootstrap 4
 
 ## SASS
 
-Importe os arquivos que irá utilizar diretamente da pasta 'src'.
+Importe os arquivos que irá utilizar diretamente da pasta 'dist/sass'.
 
 ## CSS
 
-Adicione o arquivo css diretamente da pasta 'dist'
+Adicione o arquivo css diretamente da pasta 'dist/css'
 
 ## Teste JS
 
@@ -27,8 +27,8 @@ edbExtend()
 Deverá mostrar a mensagem no console:
 
 ```bash
-Iniciando edb-bs-extend...
-©2018 - Estúdio Digital Bocca
+Este é um modulo CSS, não importe o arquivo javascript.
+edb-bs-extend - ©2018 - Estúdio Digital Bocca
 ```
 
 ## ATENÇÃO

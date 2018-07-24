@@ -2,7 +2,18 @@
 
 ## edb-bs-extend
 
-### v0.9.0
+### v1.0.0
+
+## Mudanças na v1.0.0
+
+- Pastas de imagem e sass incluidas na distribuição.
+- Utilizando Parcel em substituição ao Gulp.
+- Removido arquivo javascript do build.
+
+## Mudanças na v0.10.0
+
+- Modificação no gulpfile para a versão 4.0.0.
+- Atualização de dependências.
 
 ## Mudanças na v0.9.0
 
