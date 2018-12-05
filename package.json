@@ -1,6 +1,6 @@
 {
   "name": "edb-bs-extend",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Extensão CSS personalizada para usar com Bootstrap 4",
   "main": "src/js/index.js",
   "config": {
@@ -11,7 +11,7 @@
     "prebuild": "rm -r ./dist",
     "build": "parcel build ./src/sass/edb-bs-extend.sass -d ./dist/css --no-cache --no-source-maps",
     "postbuild": "npm run cpimg && npm run cpsass",
-    "cpimg": "cp -r ./src/images ./dist/images",
+    "cpimg": "echo 'cp -r ./src/images ./dist/images IMAGENS DESATIVADAS'",
     "cpsass": "cp -r ./src/sass ./dist/sass",
     "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo && npm run gpb",
     "gst": "git status",
@@ -38,8 +38,8 @@
   "homepage": "https://github.com/digitalbocca/edb-bs-extend#readme",
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
-    "node-sass": "^4.10.0",
     "parcel-bundler": "^1.10.3",
+    "sass": "^1.15.1",
     "standard": "^12.0.1"
   },
   "dependencies": {}

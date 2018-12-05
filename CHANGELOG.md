@@ -2,7 +2,12 @@
 
 ## edb-bs-extend
 
-### v1.2.0
+### v2.0.0
+
+## Mudanças na v2.0.0
+
+- Remoção da imagem de exemplo para redução do tamanho do pacote.
+- Atualização de dependências.
 
 ## Mudanças na v1.2.0
 
