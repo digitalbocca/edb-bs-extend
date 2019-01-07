@@ -2,7 +2,12 @@
 
 ## edb-bs-extend
 
-### v2.0.0
+### v2.1.0
+
+## Mudanças na v2.1.0
+
+- Atualização de dependências.
+- Atualizadas mensagens de copyright.
 
 ## Mudanças na v2.0.0
 

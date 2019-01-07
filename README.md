@@ -2,7 +2,7 @@
 
 ## edb-bs-extend
 
-### v2.0.0
+### v2.1.0
 
 > Extensão CSS personalizada para usar com Bootstrap 4
 
@@ -30,7 +30,7 @@ Deverá mostrar a mensagem no console:
 
 ```bash
 Este é um modulo CSS, não importe o arquivo javascript.
-edb-bs-extend - ©2018 - Estúdio Digital Bocca
+edb-bs-extend - ©2019 - Estúdio Digital Bocca
 ```
 
 ## ATENÇÃO
@@ -109,4 +109,4 @@ Cria uma div com uma imagem de fundo e texto sobreposto à imagem.
 
 - MIT
 
-> ©2018 - Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>
+> ©2018-2019 Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>
