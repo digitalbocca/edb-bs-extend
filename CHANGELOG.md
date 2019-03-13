@@ -2,7 +2,12 @@
 
 ## edb-bs-extend
 
-### v2.1.0
+### v2.2.0
+
+## Mudanças na v2.2.0
+
+- Correção no mapa de cores SASS.
+- Atualização de dependências.
 
 ## Mudanças na v2.1.0
 
