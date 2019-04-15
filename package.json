@@ -1,10 +1,10 @@
 {
   "name": "edb-bs-extend",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Extensão CSS personalizada para usar com Bootstrap 4",
   "main": "src/js/index.js",
   "config": {
-    "commitMessage": "Correção no mapa de cores SASS"
+    "commitMessage": "Modificação no controle de versão"
   },
   "scripts": {
     "dev": "echo 'Não Configurado'",
@@ -13,12 +13,14 @@
     "postbuild": "npm run cpimg && npm run cpsass",
     "cpimg": "echo 'cp -r ./src/images ./dist/images IMAGENS DESATIVADAS'",
     "cpsass": "cp -r ./src/sass ./dist/sass",
-    "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpo && npm run gpb",
+    "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpu",
     "gst": "git status",
     "gad": "git add .",
     "gco": "cross-var git commit -m \"$npm_package_config_commitMessage\"",
     "gta": "cross-var git tag v$npm_package_version",
+    "gpu": "npm run gpo && npm run gpb && npm run gpg",
     "gpo": "git push origin master --tags",
+    "gpg": "git push gl master --tags",
     "gpb": "git push bb master --tags"
   },
   "repository": {
@@ -38,8 +40,8 @@
   "homepage": "https://github.com/digitalbocca/edb-bs-extend#readme",
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
-    "parcel-bundler": "^1.12.1",
-    "sass": "^1.17.2",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.18.0",
     "standard": "^12.0.1"
   },
   "dependencies": {}

@@ -2,7 +2,7 @@
 
 ## edb-bs-extend
 
-### v2.2.0
+### v2.3.0
 
 > Extensão CSS personalizada para usar com Bootstrap 4
 
@@ -103,7 +103,7 @@ Cria uma div com uma imagem de fundo e texto sobreposto à imagem.
 
 ## LOG DE MUDANÇAS
 
-- Ver no Arquivo **CHANGELOG.md**
+- Ver no Arquivo [CHANGELOG](CHANGELOG.md)
 
 ## LICENÇA
 
