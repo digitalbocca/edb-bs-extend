@@ -2,7 +2,11 @@
 
 ## edb-bs-extend
 
-### v2.3.0
+### v2.4.0
+
+## Mudanças na v2.4.0
+
+- Atualização de dependências.
 
 ## Mudanças na v2.3.0
 
