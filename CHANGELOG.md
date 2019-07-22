@@ -2,7 +2,11 @@
 
 ## edb-bs-extend
 
-### v2.4.0
+### v2.5.0
+
+## Mudanças na v2.5.0
+
+- Atualização de dependências.
 
 ## Mudanças na v2.4.0
 
@@ -105,3 +109,5 @@
 ## Mudanças na v0.1.0
 
 - Iniciado o Controle de Versão.
+
+>(c)2019 - Estúdio Digital Bocca

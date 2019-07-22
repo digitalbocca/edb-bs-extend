@@ -1,6 +1,6 @@
 {
   "name": "edb-bs-extend",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "Extensão CSS personalizada para usar com Bootstrap 4",
   "main": "src/js/index.js",
   "config": {
@@ -41,8 +41,8 @@
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
     "parcel-bundler": "^1.12.3",
-    "sass": "^1.21.0",
-    "standard": "^12.0.1"
+    "sass": "^1.22.7",
+    "standard": "^13.1.0"
   },
   "dependencies": {}
 }
