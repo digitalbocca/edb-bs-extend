@@ -2,7 +2,7 @@
 
 ## edb-bs-extend
 
-### v2.5.0
+### v3.0.0
 
 > Extensão CSS personalizada para usar com Bootstrap 4
 
@@ -41,6 +41,13 @@ Para usar o componente capa, mude a url da imagem para a imagem do seu projeto.
 background-image: url(../images/example.jpg)
 ```
 
+Caso esteja importando o sass diretamente do node_modules você pode escrever no seu arquivo css/sass (Abaixo da importação deste modulo) a regra:
+
+```sass
+.edb-capa::before
+  background-image: url(../url/da/sua/imagem.jpg)
+```
+
 ## CLASSES CSS
 
 ### TEXTO
@@ -53,13 +60,15 @@ background-image: url(../images/example.jpg)
 
 Escolha entre 1 e 10 rem de tamanho de texto.
 
-#### CAIXA ALTA
+#### CAIXA ALTA (Removido na v3+)
 
 ```css
 .edb-upper
 ```
 
 Transforma o texto em caixa alta.
+
+**Migração: Utilize a classe text-uppercase do bootstrap 4.**
 
 #### SOMBRA
 

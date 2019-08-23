@@ -2,7 +2,13 @@
 
 ## edb-bs-extend
 
-### v2.5.0
+### v3.0.0
+
+## Mudanças na v3.0.0
+
+- Melhoria no README.
+- Remoção de classes duplicadas.
+- Atualização de dependências.
 
 ## Mudanças na v2.5.0
 
