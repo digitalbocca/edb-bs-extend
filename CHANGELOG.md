@@ -2,7 +2,13 @@
 
 ## edb-bs-extend
 
-### v3.0.0
+### v3.1.0
+
+## Mudanças na v3.1.0
+
+- Melhoria na organização da classe .edb-colors
+- Remoção da classe .edb-upper.
+- Atualização de dependências.
 
 ## Mudanças na v3.0.0
 

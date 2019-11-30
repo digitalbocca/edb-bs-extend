@@ -1,10 +1,10 @@
 {
   "name": "edb-bs-extend",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Extensão CSS personalizada para usar com Bootstrap 4",
   "main": "src/js/index.js",
   "config": {
-    "commitMessage": "Remoção de classes duplicadas."
+    "commitMessage": "Removida a classe .edb-upper"
   },
   "scripts": {
     "dev": "echo 'Não Configurado'",
@@ -40,9 +40,9 @@
   "homepage": "https://github.com/digitalbocca/edb-bs-extend#readme",
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
-    "parcel-bundler": "^1.12.3",
-    "sass": "^1.22.10",
-    "standard": "^14.0.2"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.7",
+    "standard": "^14.3.1"
   },
   "dependencies": {}
 }
