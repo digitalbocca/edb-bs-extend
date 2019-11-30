@@ -1,0 +1,27 @@
+.edb-capa
+  position: relative
+  min-height: 30rem
+
+.edb-capa::before
+  content: ""
+  position: absolute
+  /**
+   * Atenção: Utilize a URL da sua imagem.
+   *
+   * Use a seguinte linha para a classe .edb-capa::before
+   * background-image: url(../images/example.jpg)
+   */
+  background-size: cover
+  background-repeat: no-repeat
+  opacity: .5
+  width: 100%
+  height: 100%
+
+.edb-capa::after
+  content: ""
+  position: absolute
+  background-color: #000
+  opacity: 1
+  width: 100%
+  height: 100%
+  z-index: -1

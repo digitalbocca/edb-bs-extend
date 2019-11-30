@@ -2,7 +2,11 @@
 
 ## edb-bs-extend
 
-### v3.1.0
+### v3.1.1
+
+## Mudanças na v3.1.1
+
+- Correção no build.
 
 ## Mudanças na v3.1.0
 

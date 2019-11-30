@@ -1,10 +1,10 @@
 {
   "name": "edb-bs-extend",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Extensão CSS personalizada para usar com Bootstrap 4",
   "main": "src/js/index.js",
   "config": {
-    "commitMessage": "Removida a classe .edb-upper"
+    "commitMessage": "Correção no build"
   },
   "scripts": {
     "dev": "echo 'Não Configurado'",
