@@ -4,11 +4,13 @@
   "description": "Extensão CSS personalizada para usar com Bootstrap 4",
   "main": "src/js/index.js",
   "config": {
-    "commitMessage": "Correção no build"
+    "commitMessage": "Atualização de dependências"
   },
+  "parcelCleanPaths": [
+    "dist"
+  ],
   "scripts": {
     "dev": "echo 'Não Configurado'",
-    "prebuild": "rm -r ./dist",
     "build": "parcel build ./src/sass/edb-bs-extend.sass -d ./dist/css --no-cache --no-source-maps",
     "postbuild": "npm run cpimg && npm run cpsass",
     "cpimg": "echo 'cp -r ./src/images ./dist/images IMAGENS DESATIVADAS'",
@@ -41,7 +43,8 @@
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.23.7",
+    "parcel-plugin-clean-easy": "^1.0.2",
+    "sass": "^1.25.0",
     "standard": "^14.3.1"
   },
   "dependencies": {}
