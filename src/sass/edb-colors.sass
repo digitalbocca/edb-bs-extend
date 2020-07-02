@@ -1,5 +1,12 @@
-$mapcolors: ('white': #fff, 'black': #000, 'claro': #f19b2c, 'escuro': #b97722)
+/**
+ * A lista de cores foi movida para o arquivo color-variables.scss
+ * pois a sintaxe indentada não possui suporte para múltiplas linhas.
+ *
+ * Veja mais em:
+ * https://github.com/sass/sass/issues/216
+ */
+@import color-variables.scss
 
-@each $color, $colors in $mapcolors
+@each $color, $colors in $map-colors
   .edb-#{$color}
     color: $colors

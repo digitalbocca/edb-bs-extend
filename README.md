@@ -2,11 +2,13 @@
 
 ## edb-bs-extend
 
-### v3.2.1
+### v3.3.0
 
 > Extensão CSS personalizada para usar com Bootstrap 4
 
 ## Atenção: Removida a imagem de exemplo para redução do tamanho do pacote
+
+## Atenção: A documentação não trata sobre os temas para o body, na próxima versão virá com a documentação reescrita e trazendo alguns exemplos
 
 ## SASS
 
@@ -78,8 +80,6 @@ Transforma o texto em caixa alta.
 
 Aplica sombra ao texto.
 
-### DIVS E TEXTO
-
 #### CORES
 
 ```css
@@ -91,6 +91,8 @@ Aplica sombra ao texto.
 
 Cores pré definidas utilizadas pelo Estúdio Digital Bocca.
 
+### DIVS E TEXTO
+
 #### CURSOR
 
 ```css
@@ -100,6 +102,17 @@ Cores pré definidas utilizadas pelo Estúdio Digital Bocca.
 Transforma o cursor em pointer (LINK CLICÁVEL)
 
 ### DIVS
+
+#### CORES DE FUNDO
+
+```css
+.edb-bg-white
+.edb-bg-black
+.edb-bg-claro
+.edb-bg-escuro
+```
+
+Cores pré definidas utilizadas pelo Estúdio Digital Bocca.
 
 #### DIV COM IMAGEM DE FUNDO
 

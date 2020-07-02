@@ -2,7 +2,15 @@
 
 ## edb-bs-extend
 
-### v3.2.1
+### v3.3.0
+
+## Mudanças na v3.3.0
+
+- Adicionados temas para o body.
+- Adicionadas cores de background.
+- Variáveis de cores foram movidas para color-variables.scss
+- Mudança na mensagem de importação do javascript.
+- Atualização de dependências.
 
 ## Mudanças na v3.2.1
 
@@ -66,7 +74,7 @@
 
 ## Mudanças na v1.0.0
 
-- Pastas de imagem e sass incluidas na distribuição.
+- Pastas de imagem e sass incluídas na distribuição.
 - Utilizando Parcel em substituição ao Gulp.
 - Removido arquivo javascript do build.
 

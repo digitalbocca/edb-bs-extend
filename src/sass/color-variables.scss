@@ -1,0 +1,12 @@
+/**
+ * A lista de cores foi movida para o arquivo color-variables.scss
+ * pois a sintaxe indentada não possui suporte para múltiplas linhas.
+ *
+ * Veja mais em:
+ * https://github.com/sass/sass/issues/216
+ */
+$map-colors:
+  "white" #fff,
+  "black" #000,
+  "claro" #f19b2c,
+  "escuro" #b97722;
