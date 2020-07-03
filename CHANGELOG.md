@@ -1,10 +1,30 @@
-# Estúdio Digital Bocca
+<p align="center">
+  <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
+  <p align="center">Ultima Atualização na v4.1.0</p>
+  <h1 align="center">edb-bs-extend</h1>
+  <h4 align="center">
+    Extensão CSS personalizada para usar com Bootstrap 4+
+  </h4>
+  <p align="center">
+    <img src="https://badgen.net/badge/version/v4.1.0/orange">
+  </p>
+  <p align="center">(c)2020 - Estúdio Digital Bocca</p>
+</p>
 
-## edb-bs-extend
+---
 
-### v3.3.0
+# edb-bs-extend - CHANGELOG
 
-## Mudanças na v3.3.0
+---
+
+## Mudanças na v4.1.0
+
+- Adicionada seção sobre os temas para o body no README.
+- Correção nos seletores dos temas para o body.
+- Arquivos markdown seguem o padrão EBD2020.
+- Correção no controle de versão.
+
+## Mudanças na v4.0.0
 
 - Adicionados temas para o body.
 - Adicionadas cores de background.

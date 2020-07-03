@@ -1,14 +1,23 @@
-# Estúdio Digital Bocca
+<p align="center">
+  <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
+  <p align="center">Ultima Atualização na v4.1.0</p>
+  <h1 align="center">edb-bs-extend</h1>
+  <h4 align="center">
+    Extensão CSS personalizada para usar com Bootstrap 4+
+  </h4>
+  <p align="center">
+    <img src="https://badgen.net/badge/version/v4.1.0/orange">
+  </p>
+  <p align="center">(c)2020 - Estúdio Digital Bocca</p>
+</p>
 
-## edb-bs-extend
+---
 
-### v3.3.0
+# edb-bs-extend - README
 
-> Extensão CSS personalizada para usar com Bootstrap 4
+---
 
 ## Atenção: Removida a imagem de exemplo para redução do tamanho do pacote
-
-## Atenção: A documentação não trata sobre os temas para o body, na próxima versão virá com a documentação reescrita e trazendo alguns exemplos
 
 ## SASS
 
@@ -32,7 +41,7 @@ Deverá mostrar a mensagem no console:
 
 ```bash
 Este é um modulo CSS, não importe o arquivo javascript.
-edb-bs-extend - ©2019 - Estúdio Digital Bocca
+edb-bs-extend - ©2020 - Estúdio Digital Bocca
 ```
 
 ## ATENÇÃO
@@ -123,7 +132,17 @@ Cores pré definidas utilizadas pelo Estúdio Digital Bocca.
 Cria uma div com uma imagem de fundo e texto sobreposto à imagem.
 **Troque a URL da Imagem de fundo para a imagem que irá usar.**
 
-## LOG DE MUDANÇAS
+### BODY
+
+```css
+.edb-theme-primary
+.edb-theme-alternative
+.edb-theme-dark
+```
+
+Quando utilizado no body troca o tema principal pelo escolhido.
+
+## REGISTRO DE ALTERAÇÕES
 
 - Ver no Arquivo [CHANGELOG](CHANGELOG.md)
 
