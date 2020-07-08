@@ -1,12 +1,12 @@
 <p align="center">
   <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
-  <p align="center">Ultima Atualização na v4.1.0</p>
+  <p align="center">Ultima Atualização na v4.1.1</p>
   <h1 align="center">edb-bs-extend</h1>
   <h4 align="center">
     Extensão CSS personalizada para usar com Bootstrap 4+
   </h4>
   <p align="center">
-    <img src="https://badgen.net/badge/version/v4.1.0/orange">
+    <img src="https://badgen.net/badge/version/v4.1.1/orange">
   </p>
   <p align="center">(c)2020 - Estúdio Digital Bocca</p>
 </p>
@@ -16,6 +16,11 @@
 # edb-bs-extend - CHANGELOG
 
 ---
+
+## Mudanças na v4.1.1
+
+- A pasta dist esta sendo ignorada no npm.
+- Atualização de dependências.
 
 ## Mudanças na v4.1.0
 

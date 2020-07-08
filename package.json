@@ -1,10 +1,10 @@
 {
   "name": "edb-bs-extend",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "Extensão CSS personalizada para usar com Bootstrap 4",
   "main": "src/js/index.js",
   "config": {
-    "commitMessage": "Adicionada seção sobre os temas para o body no README"
+    "commitMessage": "A pasta dist estava sendo ignorada no npm"
   },
   "parcelCleanPaths": [
     "dist"
@@ -44,7 +44,7 @@
     "cross-var-no-babel": "^1.2.0",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-clean-easy": "^1.0.2",
-    "sass": "^1.26.9",
+    "sass": "^1.26.10",
     "standard": "^14.3.4"
   },
   "dependencies": {}
