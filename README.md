@@ -1,14 +1,14 @@
 <p align="center">
   <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
-  <p align="center">Ultima Atualização na v4.1.1</p>
+  <p align="center">Ultima Atualização na v4.2.0</p>
   <h1 align="center">edb-bs-extend</h1>
   <h4 align="center">
     Extensão CSS personalizada para usar com Bootstrap 4+
   </h4>
   <p align="center">
-    <img src="https://badgen.net/badge/version/v4.1.1/orange">
+    <img src="https://badgen.net/badge/version/v4.2.0/orange">
   </p>
-  <p align="center">(c)2020 - Estúdio Digital Bocca</p>
+  <p align="center">(c)2021 - Estúdio Digital Bocca</p>
 </p>
 
 ---
@@ -154,4 +154,4 @@ Quando utilizado no body troca o tema principal pelo escolhido.
 
 - MIT
 
-> ©2018-2020 Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>
+> ©2018-2021 Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>
