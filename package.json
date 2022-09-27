@@ -1,17 +1,14 @@
 {
   "name": "edb-bs-extend",
-  "version": "4.2.0",
-  "description": "Extensão CSS personalizada para usar com Bootstrap 4",
-  "main": "src/js/index.js",
+  "version": "5.0.0",
+  "description": "Extensão CSS personalizada para usar com Bootstrap 5",
   "config": {
-    "commitMessage": "A pasta dist estava sendo ignorada no npm"
+    "commitMessage": "Atualiza dependências"
   },
-  "parcelCleanPaths": [
-    "dist"
-  ],
   "scripts": {
     "dev": "echo 'Não Configurado'",
-    "build": "parcel build ./src/sass/edb-bs-extend.sass -d ./dist/css --no-cache --no-source-maps",
+    "prebuild": "rm -rf ./dist",
+    "build": "parcel build ./src/sass/edb-bs-extend.sass --dist-dir ./dist/css --no-cache --no-source-maps",
     "postbuild": "npm run cpimg && npm run cpsass",
     "cpimg": "echo 'cp -r ./src/images ./dist/images IMAGENS DESATIVADAS'",
     "cpsass": "cp -r ./src/sass ./dist/sass",
@@ -41,11 +38,10 @@
   },
   "homepage": "https://github.com/digitalbocca/edb-bs-extend#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
     "cross-var-no-babel": "^1.2.0",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-clean-easy": "^1.0.2",
-    "sass": "^1.32.8",
-    "standard": "^16.0.3"
-  },
-  "dependencies": {}
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0",
+    "standard": "^17.0.0"
+  }
 }
